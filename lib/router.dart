@@ -31,7 +31,7 @@ class AppNavigatorObserver extends AutoRouteObserver {
 }
 
 @AutoRouterConfig()
-class NestedRouter extends _$NestedRouter {
+class NestedRouter extends RootStackRouter {
   @override
   List<AutoRoute> get routes => [
         AutoRoute(
